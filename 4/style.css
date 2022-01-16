@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+
+}
+
+input {
+border: 1px solid hsl(0, 0%, 80%);
+border-radius: 3px;
+outline: none;
+padding: .5em 1em;
+margin: .25rem;
+}
+
+input:first-of-type:hover, input:first-of-type:focus {
+    box-shadow: 0 0 5px hsl(187, 40%, 50%);
+    border : 1px solid hsl(187, 40%, 70%);
+}
+
+input:nth-child(2):hover, input:nth-child(2):focus{
+    box-shadow: 0 0 5px hsl(140, 50%, 60%);
+    border : 1px solid hsl(140, 40%, 50%);
+}
+
+input:nth-child(3):hover, input:nth-child(3):focus{
+    box-shadow: 0 0 5px hsl(0, 50%, 60%);
+    border : 1px solid hsl(0, 40%, 50%);
+}
+
+input:nth-child(2) {
+    border : 1px solid hsl(140, 40%, 50%);
+}
+
+input:nth-child(3) {
+    border : 1px solid hsl(0, 40%, 50%);
+}
+
+input:nth-child(4){
+    font-size: 1.25rem;
+}
+
+input:nth-child(5){
+    font-size: .75rem;
+}
+
+input:nth-child(4):hover, input:nth-child(4):focus {
+    box-shadow: 0 0 5px hsl(187, 40%, 50%);
+    border : 1px solid hsl(187, 40%, 70%);
+}
+
+input:nth-child(5):hover, input:nth-child(5):focus {
+    box-shadow: 0 0 5px hsl(187, 40%, 50%);
+    border : 1px solid hsl(187, 40%, 70%);
+}
+
+.input:nth-child(6) {
+    background-color: #eaeaea;
+}
